@@ -1,0 +1,23 @@
+<ion-view title="Dosage Calculator" hide-back-button="true" id="page22">
+  <ion-content padding="true" class="has-header">
+    <h3 id="dosageCalculator-heading19" style="color:#000000;">Please enter the medication you would like to use.</h3>
+    <div class="spacer" style="width: 300px; height: 19px;"></div>
+    <form id="dosageCalculator-form10" class="list">
+      <label class="item item-select" id="dosageCalculator-select2">
+        <span class="input-label">Medication</span>
+        <select ng-model="dosage.med">
+          <option>Select Medication</option>
+          <option>Advil</option>
+          <option>Aleve</option>
+          <option>Allegra</option>
+          <option>Benadryl</option>
+          <option>NyQuil</option>
+          <option>Robitussin</option>
+          <option>Tylenol</option>
+        </select>
+      </label>
+    </form>
+    <div class="spacer" style="width: 300px; height: 69px;"></div>
+    <a ng-click="dosage()" id="dosageCalculator-button31" class="button button-balanced button-large button-block">Submit</a>
+  </ion-content>
+</ion-view>

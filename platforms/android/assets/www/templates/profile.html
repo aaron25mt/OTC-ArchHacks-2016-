@@ -1,0 +1,30 @@
+<ion-view title="Profile" id="page2">
+  <ion-content padding="true" class="has-header">
+    <ion-list id="profile-list7">
+      <ion-item class="item-avatar" id="profile-list-item11">
+        <h2>{{user.first_name}} {{user.last_name}}</h2> <small><i>({{user.username}})</i></small>
+        <p>{{user.sex ? user.sex : "N/A"}} - {{user.birthdate ? user.birthdate : "N/A"}}</p>
+        <p>{{user.height ? user.height : "N/A"}} inches - {{user.weight ? user.weight : "N/A"}} pounds</p>
+      </ion-item>
+    </ion-list>
+    <h2 id="profile-heading8" style="color:#000000;">Heading</h2>
+    <div id="profile-markdown8" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Some friendly
+        <strong>markdown</strong>
+      </p>
+    </div>
+    <h2 id="profile-heading9" style="color:#000000;">Heading</h2>
+    <div id="profile-markdown9" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Some friendly
+        <strong>markdown</strong>
+      </p>
+    </div>
+    <h2 id="profile-heading10" style="color:#000000;">Heading</h2>
+    <div id="profile-markdown10" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Some friendly
+        <strong>markdown</strong>
+      </p>
+    </div>
+    <a ui-sref="mainMenu.editProfile" id="profile-button10" class="button button-positive button-small button-block">Edit Profile</a>
+  </ion-content>
+</ion-view>

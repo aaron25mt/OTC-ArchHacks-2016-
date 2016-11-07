@@ -1,0 +1,24 @@
+<ion-view title="Login" hide-back-button="true" id="page5">
+  <ion-nav-buttons side="left" class="has-header">
+    <button class="button button-icon icon No Icon"></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <form id="login-form2" class="list">
+      <ion-list id="login-list4">
+        <label class="item item-input" id="login-input3">
+          <span class="input-label">Username</span>
+          <input type="text" placeholder="" ng-model="data.username">
+        </label>
+        <label class="item item-input" id="login-input4">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="" ng-model="data.password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="width: 300px; height: 89px;"></div>
+      <a ng-click="login()" id="login-button3" class="button button-stable button-large button-block">Log in</a>
+      <a ui-sref="mainMenu.signup" id="login-button4" class="button button-positive button-large button-block button-clear">Or create an account</a>
+      <a ui-sref="mainMenu.forgotPassword" id="login-button19" style="font-weight:300;" class="button button-positive  button-block button-clear">Forgot Password?</a>
+      <a ui-sref="mainMenu.forgotUsername" id="login-button20" style="font-weight:300;" class="button button-positive  button-block button-clear">Forgot Username?</a>
+    </form>
+  </ion-content>
+</ion-view>
